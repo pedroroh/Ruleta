@@ -1,0 +1,126 @@
+{
+    "personaje": [
+        {
+            "name": "Piggy",
+            "number": "1",
+            "point": "200",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-game-wiki/images/6/67/Piggy3D.png/revision/latest?cb=20200531210914"
+        },
+        {
+            "name": "Daisy",
+            "number": "2",
+            "point": "180",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/c/c1/Daisy.png/revision/latest?cb=20200509025933"
+        },
+        {
+            "name": "Bunny",
+            "number": "3",
+            "point": "170",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-game-wiki/images/8/82/Bunny.png/revision/latest/scale-to-width-down/279?cb=20200605010049"
+        },
+        {
+            "name": "Memory Piggy",
+            "number": "4",
+            "point": "190",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/3/3e/MemoryPiggy.png/revision/latest?cb=20200503005509"
+        },
+        {
+            "name": "Pandy Piggy",
+            "number": "5",
+            "point": "210",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/7/70/PandyPiggy.png/revision/latest?cb=20200503004837"
+        },
+        {
+            "name": "Kitty",
+            "number": "6",
+            "point": "175",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/8/83/Kittyskin225.png/revision/latest?cb=20200514010404"
+        },        
+        {
+            "name": "Robby Man",
+            "number": "7",
+            "point": "215",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/b/ba/RobbyMan.png/revision/latest?cb=20200518115043"
+        },        
+        {
+            "name": "Badger Badgey",
+            "number": "8",
+            "point": "213",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/c/c4/BadgerBadgey.png/revision/latest/top-crop/width/360/height/450?cb=20200525195003"
+        }
+        ,        
+        {
+            "name": "Dinopiggy",
+            "number": "9",
+            "point": "205",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/f/f0/Dinopiggy_Transparent.png/revision/latest?cb=20200419170957"
+        },        
+        {
+            "name": "Soldier Piggy",
+            "number": "10",
+            "point": "200",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/6/6a/SoldierPiggy.png/revision/latest?cb=20200503004331"
+        },        
+        {
+            "name": "Farther",
+            "number": "11",
+            "point": "192",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/a/ae/Farther3D.png/revision/latest?cb=20200502001629"
+        },        
+        {
+            "name": "Little Brother",
+            "number": "12",
+            "point": "195",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/9/94/LittleBrother3D.png/revision/latest?cb=20200501233108"
+        },        
+        {
+            "name": "Giraffy",
+            "number": "13",
+            "point": "165",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/c/c9/Giraffy_Transparent.png/revision/latest?cb=20200419171054"
+        },        
+        {
+            "name": "Beary",
+            "number": "14",
+            "point": "220",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/b/be/TransparentBeary.png/revision/latest?cb=20200417022015"
+        },        
+        {
+            "name": "Clowny",
+            "number": "15",
+            "point": "222",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/5/5e/TransparentClowny.png/revision/latest?cb=20200417022324"
+        },        
+        {
+            "name": "Elly",
+            "number": "16",
+            "point": "175",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/0/04/Elly.png/revision/latest?cb=20200520070440"
+        },        
+        {
+            "name": "Teacher",
+            "number": "17",
+            "point": "211",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/a/ac/Teacher_Transparent.png/revision/latest/top-crop/width/360/height/450?cb=20200415165941"
+        }
+        ,        
+        {
+            "name": "Mummy",
+            "number": "18",
+            "point": "205",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-wikia/images/7/75/Mummy3D.png/revision/latest?cb=20200609032428"
+        },        
+        {
+            "name": "Doggy",
+            "number": "19",
+            "point": "198",
+            "src": "https://vignette.wikia.nocookie.net/roblox-piggy-game-wiki/images/b/bc/Doggyskin275.png/revision/latest?cb=20200611195540"
+        },        
+        {
+            "name": "Grandmother",
+            "number": "20",
+            "point": "178",
+            "src": "https://vignette.wikia.nocookie.net/robloxpiggy/images/d/d1/Grandmother_.png/revision/latest/top-crop/width/360/height/450?cb=20200603144842"
+        }
+    ]
+}
