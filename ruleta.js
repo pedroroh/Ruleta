@@ -4,7 +4,9 @@ let data;
 let botonPrev = document.querySelector("#Prev");
 let botonNext = document.querySelector("#Next");
 let imgPersonaje = document.querySelector("#imgCollapse");
-const srcJson = "http://127.0.0.1:5500/ruleta.json";
+
+const srcJson = "https://raw.githubusercontent.com/pedroroh/Ruleta/master/ruleta.json"
+/*const srcJson = "http://127.0.0.1:5500/ruleta.json";*/
 let i = 0;
 
 document.querySelector("#Prev").innerHTML = "<img id='btnPrev' src='img/back2.png' class='btn'>";
