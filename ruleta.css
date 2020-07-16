@@ -49,3 +49,7 @@ img:hover{
 #btnSelect{
     padding: 10px;
 }
+
+label , input {
+    display: block;
+}

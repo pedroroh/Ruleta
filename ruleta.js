@@ -1,17 +1,61 @@
 puntos = 0;
 match = 0;
+
+
+
+let AddAgregar = docEleme("Agregar");
+
+
 let data;
 let botonPrev = document.querySelector("#Prev");
 let botonNext = document.querySelector("#Next");
 let imgPersonaje = document.querySelector("#imgCollapse");
 
-const srcJson = "https://raw.githubusercontent.com/pedroroh/Ruleta/master/ruleta.json"
+const srcJson = "http://hdecstudio.com/api/Ruleta/service.php"
 /*const srcJson = "http://127.0.0.1:5500/ruleta.json";*/
 let i = 0;
 
 document.querySelector("#Prev").innerHTML = "<img id='btnPrev' src='img/back2.png' class='btn'>";
 document.querySelector("#Next").innerHTML = "<img id='btnNext' src='img/next2.png' class='btn'>";
 document.querySelector("#tituloSelector").innerHTML = "<p style='text-aling:center;'>PERSONAJES ROBLOX</p>";
+
+function docEleme(id) {
+    return document.getElementById(id);
+}
+
+//get
+/*$.ajax(urlPhp + "?name=" + docEleme("name").value +
+    "&number=" + docEleme("number").value + "&point=" +
+    docEleme("point").value + "&src=" + docEleme("src").value)
+    .then(response => {
+        if (response.status == "0") {
+
+
+        }
+    })*/
+
+//post
+AddAgregar.addEventListener('click', () => {
+    let NombreF = docEleme("fName").value;
+    let NumeroF = docEleme("fNumber").value;
+    let PonitF = docEleme("fPoint").value;
+    let UrlF = docEleme("fUrl").value;
+
+    const parametros = { name: NombreF, number: NumeroF, point: PonitF, url: UrlF };
+
+
+    fetch(srcJson, {
+        method: 'POST', // or 'PUT'
+        body: JSON.stringify(parametros), // data can be `string` or {object}!
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }).then(res => res.json())
+        .catch(error => console.error('Error:', error))
+        .then(response => console.log('Success:', response));
+
+})
+
 
 function consumirServicio() {
     fetch(srcJson)
@@ -58,9 +102,9 @@ function election() {
     })
 }
 
-election();
+//election();
 
 
 $('.carousel').carousel({
     interval: 0
-  })
+})
