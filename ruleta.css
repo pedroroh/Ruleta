@@ -50,6 +50,6 @@ img:hover{
     padding: 10px;
 }
 
-label , input {
-    display: block;
+.formato {
+    padding:10px;
 }

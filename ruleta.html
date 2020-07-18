@@ -54,24 +54,34 @@
             <button class="btn btn-primary" type="button">Escoger</button>
         </div>-->
 
-        
+
 
     </div>
-    <div class="border col-12" id=" " style="clear: both;">
+    <div class="border col-12 text-center" id=" " style="clear: both;">
         <form class="form form-group" action="">
             <h2>Administrar personaje</h2>
-            <label class="" for="">Nombre:</label>
-            <input id="fName" class="input" type="text" value="">
-            <label class="" for="">Numero:</label>
-            <input id="fNumber" class="input" type="text" value="">
-            <label class="" for="">Puntos:</label>
-            <input id="fPoint" class="input" type="text" value="">
-            <label class="" for="">Url Imagen:</label>
-            <input id="fUrl" class="input" type="text" value="">
+            <div class="formato">
+                <label class="" for="">Nombre:</label>
+                <input id="fName" class="input" type="text" value="">
+            </div>
+
+            <div class="formato"> 
+                <label class="" for="">Numero:</label>
+                <input id="fNumber" class="input" type="text" value="">
+            </div>
+            <div class="formato">
+                <label class="" for="">Puntos:</label>
+                <input id="fPoint" class="input" type="text" value="">
+            </div>
+            <div class="formato">
+                <label class="" for="">Url Imagen:</label>
+                <input id="fUrl" class="input" type="text" value="">
+            </div>
+
         </form>
         <button id="Agregar" class="btn bg-primary" type="button">AGREGAR</button>
-        <button class="btn badge-danger" type="button">ELIMINAR</button>
-        <button class="btn bg-success" type="button">MODIFICAR</button>
+        <button id="btnEliminar" class="btn badge-danger" type="button">ELIMINAR</button>
+        <button id="btnUpdate" class="btn bg-success" type="button">MODIFICAR</button>
     </div>
 
 
